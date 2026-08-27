@@ -28,6 +28,10 @@
 /AGENTS.md
 /CLAUDE.md
 
+# local editor/build folders
+/.vscode/
+/.vite/
+
 # local asset drafts
 /public/mokups/
 
@@ -39,6 +43,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel

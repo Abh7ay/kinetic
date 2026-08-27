@@ -5,6 +5,23 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Repository: https://github.com/Abh7ay/kinetic
 
+## Production
+
+Recommended production checklist:
+
+- Create a Vercel project and connect this repository for automatic deployments, or deploy via your preferred host.
+- Store secrets in the host (e.g., `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`) — never commit them to source control. Use `.env.local` for local development (copy from `.env.example`).
+- Build the app for production:
+
+```bash
+npm ci
+npm run build
+npm start
+```
+
+If deploying to Vercel, the platform will handle build and start steps automatically.
+
+
 ## Getting Started
 
 First, run the development server:
