@@ -23,6 +23,6 @@ jobs:
       - name: Audit for vulnerabilities
         run: npm audit --audit-level=moderate || true
       - name: Lint
-        run: npm run lint || true
+        run: npm run lint
       - name: Build
         run: npm run build
