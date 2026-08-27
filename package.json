@@ -1,7 +1,11 @@
 {
-  "name": "kinetic-next",
+  "name": "kinetic",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abh7ay/kinetic.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
