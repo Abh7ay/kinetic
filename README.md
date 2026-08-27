@@ -1,3 +1,6 @@
+[![CI](https://github.com/Abh7ay/kinetic/actions/workflows/ci.yml/badge.svg)](https://github.com/Abh7ay/kinetic/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Repository: https://github.com/Abh7ay/kinetic

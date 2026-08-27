@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/Abh7ay/kinetic.git"
   },
+  "homepage": "https://github.com/Abh7ay/kinetic#readme",
+  "bugs": {
+    "url": "https://github.com/Abh7ay/kinetic/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
